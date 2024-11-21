@@ -1,0 +1,6 @@
+# /etc/profile
+
+# 安装spark添加：
+# ****************Spark**********************
+export SPARK_HOME=/export/servers/spark
+export PATH=$SPARK_HOME/bin:$SPARK_HOME/sbin:$PATH
